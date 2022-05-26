@@ -6,12 +6,9 @@
 package Vista;
 
 import com.formdev.flatlaf.FlatDarkLaf;
-import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
-import Vista.*;
-import com.sun.glass.ui.Cursor;
 
 /**
  *
@@ -27,6 +24,7 @@ public class SplashScreen extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         setIconImage(new ImageIcon(getClass().getResource("/Img/IconoITRSP.PNG")).getImage());
         rsscalelabel.RSScaleLabel.setScaleLabel(jLabel1, "src/Img/SplashScreenEX.PNG");
+        
     }
 
     /**

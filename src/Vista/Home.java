@@ -43,7 +43,6 @@ public class Home extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel3 = new javax.swing.JPanel();
-        menu1 = new Controlador.Menu();
         jPanel1 = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel1 = new javax.swing.JLabel();
@@ -64,10 +63,6 @@ public class Home extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(51, 51, 51));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        menu1.setPreferredSize(new java.awt.Dimension(100, 650));
-        menu1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel3.add(menu1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 750, 240));
 
         jPanel1.setForeground(new java.awt.Color(60, 63, 65));
 
@@ -137,7 +132,6 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JSeparator jSeparator1;
-    private Controlador.Menu menu1;
     // End of variables declaration//GEN-END:variables
     class RoundedPanel extends JPanel
     {
