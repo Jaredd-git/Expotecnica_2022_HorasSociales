@@ -6,7 +6,7 @@
 package Vista;
 
 import com.formdev.flatlaf.FlatDarkLaf;
-import Controlador.TextPrompt;
+import SwingComponents.TextPrompt;
 import java.awt.Cursor;
 import javafx.scene.control.TextField;
 import javax.swing.UIManager;
@@ -25,7 +25,7 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         setLocationRelativeTo(null);
-        setIconImage(new ImageIcon(getClass().getResource("/Img/IconoITR2.PNG")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/Img/IconoITRSP.PNG")).getImage());
         rsscalelabel.RSScaleLabel.setScaleLabel(jLabel1, "src/Img/Logo2.PNG");
         rsscalelabel.RSScaleLabel.setScaleLabel(jLabel4, "src/Img/fondo.PNG");
         rsscalelabel.RSScaleLabel.setScaleLabel(jLabel5, "src/Img/usu.PNG");
