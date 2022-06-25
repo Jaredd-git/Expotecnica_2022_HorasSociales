@@ -97,7 +97,7 @@ public class Configuration extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("No molestar");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 250, 260, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 220, 260, -1));
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -111,7 +111,7 @@ public class Configuration extends javax.swing.JFrame {
                 jCheckBox2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, -1, -1));
+        jPanel1.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 220, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
@@ -219,14 +219,14 @@ public class Configuration extends javax.swing.JFrame {
                 jToggleButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 150, 60));
+        jPanel1.add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 150, 30));
 
         jToggleButton2.setBackground(new java.awt.Color(196, 152, 0));
         jToggleButton2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jToggleButton2.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton2.setText("Solo peticiones");
         jToggleButton2.setBorderPainted(false);
-        jPanel1.add(jToggleButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 110, 150, 60));
+        jPanel1.add(jToggleButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 110, 140, 30));
 
         jCheckBox6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jCheckBox6.setForeground(new java.awt.Color(255, 255, 255));
@@ -235,12 +235,12 @@ public class Configuration extends javax.swing.JFrame {
                 jCheckBox6ActionPerformed(evt);
             }
         });
-        jPanel1.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 200, -1, -1));
+        jPanel1.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("sonidos");
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, 260, -1));
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 180, 260, -1));
 
         jCheckBox7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jCheckBox7.setForeground(new java.awt.Color(255, 255, 255));
@@ -259,7 +259,7 @@ public class Configuration extends javax.swing.JFrame {
         jLabel15.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Permitir que las notificaciones reproduzcan");
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 190, 280, -1));
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 160, 280, -1));
 
         jButton4.setBackground(new java.awt.Color(196, 152, 0));
         jButton4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
